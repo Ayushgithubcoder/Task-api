@@ -1,2 +1,94 @@
+# Node.js .gitignore
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
 .env
-node_modules
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+
+# Temporary files
+tmp/
+temp/
+.cache/
+.cache-loader/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Miscellaneous
+*.tgz
+*.gz
+*.zip
+*.tar
+*.rar
+*.7z
+
+# TypeScript
+*.tsbuildinfo
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Backup files
+*~
+*.bak
+*.orig
+*.swp
+*.swo
+
+# Other
+__pycache__/
+*.prisma
+!package.json
+!package-lock.json
+!requirements.txt
+!*.yml
+
+# InfrIQa generated manifest
+.infriqa/
+
+
+# OpenTofu / Terraform local files
+tofu/.terraform/
+tofu/*.tfstate
+tofu/*.tfstate.*
+tofu/tofu.tfvars
+tofu/terraform.tfvars
+tofu/crash.log

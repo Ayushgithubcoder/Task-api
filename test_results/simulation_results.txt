@@ -1,0 +1,83 @@
+status:
+success
+
+services:
+NAME      IMAGE     COMMAND   SERVICE   CREATED   STATUS    PORTS
+
+
+build_output:
+#1 [internal] load local bake definitions
+#1 reading from stdin 810B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 386B 0.0s done
+#2 DONE 0.1s
+
+#3 [internal] load metadata for docker.io/library/node:18-slim
+#3 DONE 2.0s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.1s
+
+#5 [1/5] FROM docker.io/library/node:18-slim@sha256:f9ab18e354e6855ae56ef2b290dd225c1e51a564f87584b9bd21dd651838830e
+#5 resolve docker.io/library/node:18-slim@sha256:f9ab18e354e6855ae56ef2b290dd225c1e51a564f87584b9bd21dd651838830e 0.1s done
+#5 DONE 0.2s
+
+#6 [internal] load build context
+#6 ...
+
+#7 [2/5] WORKDIR /app
+#7 DONE 0.1s
+
+#6 [internal] load build context
+#6 transferring context: 178.39kB 0.3s done
+#6 DONE 0.4s
+
+#8 [3/5] COPY package*.json ./
+#8 DONE 0.1s
+
+#9 [4/5] RUN npm install --legacy-peer-deps
+#9 19.42 
+#9 19.42 added 106 packages, and audited 107 packages in 18s
+#9 19.42 
+#9 19.42 22 packages are looking for funding
+#9 19.42   run `npm fund` for details
+#9 19.43 
+#9 19.43 1 high severity vulnerability
+#9 19.43 
+#9 19.43 To address all issues, run:
+#9 19.43   npm audit fix
+#9 19.43 
+#9 19.43 Run `npm audit` for details.
+#9 19.43 npm notice
+#9 19.43 npm notice New major version of npm available! 10.8.2 -> 12.0.2
+#9 19.43 npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+#9 19.43 npm notice To update run: npm install -g npm@12.0.2
+#9 19.43 npm notice
+#9 DONE 19.7s
+
+#10 [5/5] COPY . .
+#10 DONE 0.2s
+
+#11 exporting to image
+#11 exporting layers
+#11 exporting layers 8.7s done
+#11 exporting manifest sha256:df59400144654df091180323b586ac5cd7ab1a14ee9567207dd76d444a51766e 0.0s done
+#11 exporting config sha256:b6494ed7a122735d3bc9456a8a48965ee8b10a3f075752cf78001d4fb965a8e8 0.0s done
+#11 exporting attestation manifest sha256:adbd1dcf8ba14ece92572be8ecdb50ac1f7fcd75ade4fcec45b9bf0f5e4ca345 0.1s done
+#11 exporting manifest list sha256:89003913eb6564a2b49a6e86e9ddaefa8dd67e57ca622a73f2a2818e5cf558c3
+#11 exporting manifest list sha256:89003913eb6564a2b49a6e86e9ddaefa8dd67e57ca622a73f2a2818e5cf558c3 0.0s done
+#11 naming to docker.io/library/ayushgithubcoder_task-api-backend:latest done
+#11 unpacking to docker.io/library/ayushgithubcoder_task-api-backend:latest
+#11 unpacking to docker.io/library/ayushgithubcoder_task-api-backend:latest 3.0s done
+#11 DONE 12.0s
+
+#12 resolving provenance for metadata file
+#12 DONE 0.0s
+
+
+start_output:
+
+

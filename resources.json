@@ -1,0 +1,61 @@
+[
+  {
+    "subscription_id": "d6c69b8a-1b49-482e-80c0-95ccb98fd3c6",
+    "resource_group": "Test-01-dev-rg",
+    "github_repo": "Ayushgithubcoder/Task-api",
+    "secret_name": "AZURE_CREDENTIALS",
+    "secret_profile_name": null,
+    "res_type": "azurerm_resource_group",
+    "resource_type": "infrastructure",
+    "azure_resource_type": "Microsoft.Resources/resourceGroups",
+    "identifier": "infrastructure_resource",
+    "category": "INFRASTRUCTURE",
+    "resource_name": "Test-01-dev-rg",
+    "deployment_method": null,
+    "generated_by": "antigravity_fix"
+  },
+  {
+    "subscription_id": "d6c69b8a-1b49-482e-80c0-95ccb98fd3c6",
+    "resource_group": "Test-01-dev-rg",
+    "github_repo": "Ayushgithubcoder/Task-api",
+    "secret_name": "AZURE_CREDENTIALS",
+    "secret_profile_name": "static_web_app",
+    "res_type": "azurerm_static_site",
+    "resource_type": "static_web_app",
+    "azure_resource_type": "Microsoft.Web/staticSites",
+    "identifier": "static_site",
+    "category": "FRONTEND",
+    "resource_name": "test-01-dev-frontend-web-app",
+    "deployment_method": "static_web_app",
+    "generated_by": "antigravity_fix",
+    "endpoint": "https://calm-ocean-0a4a1d810.7.azurestaticapps.net"
+  },
+  {
+    "subscription_id": "d6c69b8a-1b49-482e-80c0-95ccb98fd3c6",
+    "resource_group": "Test-01-dev-rg",
+    "github_repo": "Ayushgithubcoder/Task-api",
+    "secret_name": "AZURE_CREDENTIALS",
+    "secret_profile_name": "container_app",
+    "res_type": "azurerm_container_app",
+    "resource_type": "container_app",
+    "azure_resource_type": "Microsoft.App/containerApps",
+    "identifier": "api_service",
+    "category": "BACKEND",
+    "resource_name": "test-01-dev-task-manager-api",
+    "deployment_method": "container_app",
+    "generated_by": "antigravity_fix"
+  },
+  {
+    "subscription_id": "d6c69b8a-1b49-482e-80c0-95ccb98fd3c6",
+    "resource_group": "Test-01-dev-rg",
+    "github_repo": "Ayushgithubcoder/Task-api",
+    "secret_name": "AZURE_CREDENTIALS",
+    "secret_profile_name": "AZURE_SQL_CONNECTION",
+    "res_type": "azurerm_postgresql_flexible_server",
+    "resource_type": "postgresql_flexible_server",
+    "azure_resource_type": "Microsoft.DBforPostgreSQL/flexibleServers",
+    "identifier": "sql_database",
+    "category": "DATABASE",
+    "resource_name": "test-01-dev-pg"
+  }
+]
